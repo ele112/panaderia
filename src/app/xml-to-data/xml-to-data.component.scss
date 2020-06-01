@@ -1,0 +1,53 @@
+.card{
+    height: 90%;
+    width: 90%;
+    // overflow: auto;
+
+
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    ngx-dropzone{
+        width: 70%;
+        height: 70%;
+        background-color: rgb(247, 247, 247);
+    }
+
+}
+
+[wrapper]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100% !important;
+    height: 90% !important;
+}
+
+[mat-line]{
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+
+
+.title{
+    font-size: 22px;
+    font-weight: bold;
+}
+.section{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px; 
+
+}
+
+mat-sidenav-container {
+   height: 100%;
+}
+
