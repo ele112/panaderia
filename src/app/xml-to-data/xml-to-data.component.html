@@ -23,7 +23,7 @@
     <div wrapper>
         <mat-card class="card mat-elevation-z3" [ngClass]="showDropZone ? 'center' : '' ">
 
-
+            <button (click)="download()" color="primary">TTTT</button>
             <ngx-dropzone (change)="onFileChange($event)" accept=".csv" *ngIf="showDropZone">
                 <ngx-dropzone-label>Adjunta el excel!</ngx-dropzone-label>
             </ngx-dropzone>
